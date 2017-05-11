@@ -80,6 +80,7 @@ INSERT INTO Products (ItemID, ProductName, DepartmentName, Price, StockQuantity)
 20);
 
 USE Bamazon;
+
 CREATE TABLE Departments(
 DepartmentId int AUTO_INCREMENT,
 PRIMARY KEY(DepartmentId),
