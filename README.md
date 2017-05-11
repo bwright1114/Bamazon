@@ -9,12 +9,19 @@ If you haven't written a markdown file yet, click here for a rundown, or just ta
 
 Instructions  Challenge #1: Customer View (Minimum Requirement)  Create a MySQL Database called Bamazon. Then create a Table inside of that database called products. The products table should have each of the following columns: item_id (unique id for each product) product_name (Name of product) department_name price (cost to customer) stock_quantity (how much of the product is available in stores) Populate this database with around 10 different products. (i.e. Insert "mock" data rows into this database and table). 
 
-Then create a Node application called bamazonCustomer.js. Running this application will first display all of the items available for sale. Include the ids, names, and prices of products for sale. The app should then prompt users with two messages. 
 
-The first should ask them the ID of the product they would like to buy. The second message should ask how many units of the product they would like to buy. 
+![image](https://cloud.githubusercontent.com/assets/24800244/25960469/04d402d4-3645-11e7-8742-d616416a0a9e.png)
+This pic is showing my table, and my items listed along with the price.
 
-Once the customer has placed the order, your application should check if your store has enough of the product to meet the customer's request. If not, the app should log a phrase like Insufficient quantity!, and then prevent the order from going through. 
+![image](https://cloud.githubusercontent.com/assets/24800244/25960660/9177c7a2-3645-11e7-99aa-f8b0e73c6d14.png)
+This pic is showing what happens when  a user purchases an item from the table.
 
-However, if your store does have enough of the product, you should fulfill the customer's order. This means updating the SQL database to reflect the remaining quantity. Once the update goes through, show the customer the total cost of their purchase.
+![image](https://cloud.githubusercontent.com/assets/24800244/25960733/d75c8a8c-3645-11e7-8c4b-972574bb5f12.png)
+This pic is displaying what happens when a user tries to purchase something that it out of stock.
 
-attached a super small video of hw it works! <img src="Bamazon/superedited12.mov />">
+![image](https://cloud.githubusercontent.com/assets/24800244/25960827/2d221aea-3646-11e7-99b5-0a9360f7ea09.png)
+This pic is showing mysql database from the product side. also demonstrates the stock amt
+
+![image](https://cloud.githubusercontent.com/assets/24800244/25960895/5cde27ec-3646-11e7-8ed7-8fc865feefcb.png)
+This pic is displaying mysql database from the department side. also demonstrates the total stock.
+
